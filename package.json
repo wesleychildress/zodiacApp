@@ -1,0 +1,19 @@
+{
+  "name": "zodiacapp",
+  "version": "1.0.0",
+  "description": "Making zodiac application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Wesley Childress",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "npm": "^6.13.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
