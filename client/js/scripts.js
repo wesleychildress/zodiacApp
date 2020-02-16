@@ -1,3 +1,17 @@
+function entFunc(){
+    $("#searchForm").submit(function(e) {
+        e.preventDefault();
+        getData();
+        return false;
+    });
+    
+    $('#myBtn').click(function(e){
+        e.preventDefault();
+        // call function
+        getData();
+    });
+}
+
 var zodiacs = [
 {
 	name: "Aries",

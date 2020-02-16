@@ -21,13 +21,14 @@
      	 	<div class="col-md-6">
      	 		<img src="/images/zodiac.jpg" class="img-fluid" alt="Responsive image">
      	 		<hr>
-     	 		<form>
-            <div class="form-group">
-              <input type="text" id="user-search" class="form-control" placeholder="Type zodiac name ...">
+     	 		<form id="searchForm">
+                         <div class="form-group">
+                              <input type="text" id="user-search" class="form-control" placeholder="Type zodiac name ...">
      	 			</div>
      	 			<div class="form-group">
-     	 				<button class="btn btn-danger" onclick="getData()" type="button">Find</button>
-     	 			</div>
+     	 				<button class="btn btn-danger" id="myBtn" type="button">Find</button>
+                         </div>
+                         <script>entFunc();</script>
      	 		</form>
      	 	</div>
      	 	<div class="col-md-6">
